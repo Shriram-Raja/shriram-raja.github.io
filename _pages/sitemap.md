@@ -3,6 +3,8 @@ layout: archive
 title: "Sitemap"
 permalink: /sitemap/
 author_profile: true
+http-equiv="refresh" 
+content="0; URL=https://shriram-raja.github.io/404.html"
 ---
 
 {% include base_path %}
