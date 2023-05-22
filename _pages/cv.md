@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-![/files/Shriram_Raja_CV.pdf]
+![pdf](/files/Shriram_Raja_CV.pdf)
