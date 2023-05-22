@@ -16,7 +16,7 @@ main:
 #    url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    url: http://shriram-raja.github.io/files/Shriram_Raja_CV.pdf
     
   - title: "Useful Links"
     url: /useful-links/
