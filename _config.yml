@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Shriram Raja"
 title_separator          : "-"
 name                     : &name "Shriram Raja"
-description              : &description "Incoming Ph.D. Student, Boston University"
+description              : &description "CS Ph.D. Student, Boston University"
 url                      : https://shriram-raja.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Shriram-Raja/shriram-raja.github.io"
@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Shriram Raja"
+  name             : "Shriram Raja (he/him)"
   avatar           : "Shriram_Image.jpg"
-  bio              : "Incoming Ph.D. Student, Boston University | Virginia Tech"
+  bio              : "CS Ph.D. Student, Boston University | Virginia Tech"
   location         : "Blacksburg, VA, US"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
