@@ -7,7 +7,7 @@ redirect_from:
   - /useful-links.html
 ---
 
-- Classification of Real-Time System papers by Prof. Enrico Bini - [Link](https://cmte.ieee.org/tcrts/classification-of-rtss-papers/)
-- Seminal Papers in Real-Time Systems, TCRTS - [Link](https://cmte.ieee.org/tcrts/classification-of-rtss-papers/)
+- Classification of Real-Time System papers (1990-2015) by Prof. Enrico Bini - [Link](https://cmte.ieee.org/tcrts/classification-of-rtss-papers/)
+- Seminal Papers in Real-Time Systems, TCRTS - [Link](https://cmte.ieee.org/tcrts/education/seminal-papers/)
 - Real-Time System Terminology and Notation, TCRTS - [Link](https://cmte.ieee.org/tcrts/education/terminology-and-notation/)
 - Real-Time Systems / Embedded Systems / Design Automation and Robotics Conference Deadlines, maintained by [Dr. Xiaotian Dai](https://www.xiaotiandai.com/) - [Link](https://automaticdai.github.io/realtime-embedded-conferences/)
