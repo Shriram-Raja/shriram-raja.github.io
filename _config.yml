@@ -273,7 +273,8 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
+last-modified-at:
+    date-format: '%b %y'
 
 # Archives
 #  Type
