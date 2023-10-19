@@ -12,11 +12,11 @@ I am a first year Ph.D. student in the Department of Computer Science at Boston 
 <br/>
 I received my Master's in Computer Engineering in 2023 from Virginia Tech where I was advised by <a target="_blank" rel="noopener noreferrer" href="https://www.faculty.ece.vt.edu/zeng/">Dr. Haibo Zeng</a>. I completed my Bachelor's degree in Electrical and Electronics Engineering at PSG College of Technology, India in 2021. <br><br>
 
-## News
-&nbsp;*Sep 2023*&nbsp;Started my Ph.D. at Boston University
+<h2>News</h2>
+&nbsp;**Sep 2023**&nbsp;Started my Ph.D. at Boston University
 <br><br>
 
-<h3>What's in a name?</h3>
+## What's in a name?
 
 My name is pronounced as follows:   
 <html>
