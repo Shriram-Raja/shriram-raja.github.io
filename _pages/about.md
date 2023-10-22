@@ -20,7 +20,7 @@ I received my Master's in Computer Engineering in 2023 from Virginia Tech where 
 
 My name is pronounced as follows:   
 <html>
-<audio controls src="https://hearmyname.bu.edu/Listen/Recording/shriramr.mp3" title="hear my name - Shriram Raja" type="audio/mp3"></audio>
+<audio controls src="https://hearmyname.bu.edu/Listen/Recording/shriramr.mp3" title="hear my name - Shriram Raja" type="audio/mp3" style="transform: scale(0.7)"></audio>
 <br><br>
 <img src="/_pages/callmeabc.png" align="right" alt="drawing" width="250"/>
 </html>
