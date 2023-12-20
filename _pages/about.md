@@ -22,7 +22,7 @@ My name is pronounced as follows:
 <html>
 <audio controls src="https://hearmyname.bu.edu/Listen/Recording/shriramr.mp3" title="hear my name - Shriram Raja" type="audio/mp3" style="transform: scale(0.7)"></audio>
 <br><br>
-<img src="/files/callmeabc.png" align="right" alt="drawing" width="250"/>
+<img src="/images/callmeabc.png" align="right" alt="drawing" width="250"/>
 </html>
 
 <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Coimbatore">Where</a> I come from, we follow what is called <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Patronymic#:~:text=In%20Tamil%20Nadu,of%20the%20name.">patronymic</a> naming. So, my given name is actually R. Shriram, where R stands for Raja which is my father's first name. To match the <given name> <last name> convention that is common in other parts of India and the world, I moved the initial to the other side of my first name. So, when I say, "Call me Shriram", it's because Raja is <i><a target="_blank" rel="noopener noreferrer" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/TheyCallMeMisterTibbs#:~:text=Character%20A%20assumes%20too%20much%20formality,that%20no%2C%20they%20are%20not%20friends.">literally</a></i> my father.
