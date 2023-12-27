@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 I am a first year Ph.D. student in the Department of Computer Science at Boston University working with <a target="_blank" rel="noopener noreferrer" href="https://www.cs.bu.edu/fac/richwest/index2.html">Dr. Richard West</a>. I received my Master's in Computer Engineering in 2023 from Virginia Tech where I was advised by <a target="_blank" rel="noopener noreferrer" href="https://www.faculty.ece.vt.edu/zeng/">Dr. Haibo Zeng</a>. I completed my Bachelor's degree in Electrical and Electronics Engineering at PSG College of Technology, India in 2021.
-<br/>
+<br/><br/>
 
 **Research Interests**
 
@@ -17,13 +17,13 @@ I am broadly interested in real-time systems research. My specific interests inc
 - Scheduling
 - Resource Management
 - Synchronization
-<br/>
+<br/><br/>
 
 
 **News**
 
 &nbsp; **Sep 2023** &nbsp; Started my Ph.D. at Boston University
-<br/>
+<br/><br/>
 
 
 ## What's in a name?
