@@ -12,6 +12,7 @@ I am a first year Ph.D. student in the Department of Computer Science at Boston 
 <br/><br/>
 
 ### Research Interests
+----
 
 I am broadly interested in real-time systems research. My specific interests include (but are not limited to):
 - Scheduling
@@ -20,7 +21,8 @@ I am broadly interested in real-time systems research. My specific interests inc
 <br/><br/>
 
 
-**News**
+### News
+----
 
 &nbsp; **Sep 2023** &nbsp; Started my Ph.D. at Boston University
 <br/><br/>
