@@ -17,7 +17,6 @@ ___
 I am broadly interested in real-time systems research. My specific interests include (but are not limited to):
 - Scheduling
 - Resource Management
-- Synchronization
 <br/><br/>
 
 
