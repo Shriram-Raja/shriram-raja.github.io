@@ -12,7 +12,7 @@ I am a first year Ph.D. student in the Department of Computer Science at Boston 
 <br/><br/>
 
 ### Research Interests
-----
+___
 
 I am broadly interested in real-time systems research. My specific interests include (but are not limited to):
 - Scheduling
@@ -22,13 +22,14 @@ I am broadly interested in real-time systems research. My specific interests inc
 
 
 ### News
-----
+___
 
 &nbsp; **Sep 2023** &nbsp; Started my Ph.D. at Boston University
 <br/><br/>
 
 
-## What's in a name?
+### What's in a name?
+___
 
 My name is pronounced as follows:   
 <html>
