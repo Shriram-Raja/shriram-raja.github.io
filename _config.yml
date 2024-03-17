@@ -86,7 +86,7 @@ author:
   location         : "Boston, MA, US"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=92OOewMAAAAJ&view_op=list_works&sortby=pubdate"
   email            : "shriramr@bu.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -103,7 +103,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "shriram-raja"
-  orcid            : # "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-3123-3486"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -146,6 +146,7 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - ruby
 keep_files:
   - .git
   - .svn

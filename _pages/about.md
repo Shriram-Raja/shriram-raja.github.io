@@ -22,8 +22,26 @@ I am broadly interested in real-time systems research. My specific interests inc
 
 ### News
 ___
+<style>
+table, tr, th, td {
+    border: none;
+    border-collapse: collapse;
+    font-size:16px;
+}
+</style>
 
-&nbsp; **Sep 2023** &nbsp; Started my Ph.D. at Boston University
+<table>
+  <tr>
+    <th>Mar 2024</th>
+    <td>Our work on <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1109/TCAD.2024.3376588">Global Fixed Priority Preemptive Scheduling</a> accepted in <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43">IEEE TCAD</a></td>
+  </tr>
+
+  <tr>
+    <th>Sep 2023</th>
+    <td>Started my Ph.D. at Boston University</td>
+  </tr>
+</table>
+
 <br/><br/>
 
 
@@ -40,5 +58,5 @@ My name is pronounced as follows:
 <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Coimbatore">Where</a> I come from, we follow something called <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Patronymic#:~:text=In%20Tamil%20Nadu,of%20the%20name.">patronymic</a> naming. So, my given name is actually R. Shriram, where R stands for Raja which is my father's first name. To match the <given name> <last name> convention that is common in other parts of India and the world, I moved the initial to the other side of my first name. So, when I say, "Call me Shriram", it's because Raja is <i><a target="_blank" rel="noopener noreferrer" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/TheyCallMeMisterTibbs#:~:text=Character%20A%20assumes%20too%20much%20formality,that%20no%2C%20they%20are%20not%20friends.">literally</a></i> my father.
 
 <p align="center">
-  <img src="/images/callmeabc.png" alt="drawing" width="250"/>
+  <img src="/images/callmeabc.png" alt="cartoon about &quot;Mr. ABC is my father, call me XYZ&quot;" width="250"/>
 </p>

@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
+<!-- {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
@@ -13,4 +13,47 @@ author_profile: true
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
-{% endfor %}
+{% endfor %} -->
+
+<style>
+table, tr, th, td {
+  border: none;
+  border-collapse: collapse;
+  font-size:16px;
+  vertical-align: top;
+  /* width:auto; */
+}
+
+.c {
+  color:#FF7070;
+}
+
+.j {
+  color:#4DB34E;
+}
+
+.title {
+  font-weight:bold;
+}
+
+</style>
+
+<table>
+  <tr>
+    <td class="j">
+      [J1]
+    </td>
+    <td>
+      Xuanliang Deng*, <u><b>Shriram Raja</b></u>*, Yecheng Zhao, and Haibo Zeng, "<span class="title">Priority Assignment for Global Fixed Priority Scheduling on Multiprocessors</span>", <span class="j">IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)</span>, 2024. <b>Impact Factor: 2.9</b> [<a target="_blank" rel="noopener noreferrer" href="/files/HP_MITER_TCAD_2024.pdf">pdf</a>] [<a target="_blank" rel="noopener noreferrer" href="https://github.com/Shriram-Raja/HP-MITER">Code</a>]
+      <ul>
+        <li> Proposes a Mixed Priority Assignment algorithm for Global Fixed Priority (G-FP) scheduling that combines the advantages of heuristics and response time estimation (in place of actual response time) to outperform existing methods by 25% on average. </li>
+        <li> <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1109/TCAD.2024.3376588">https://doi.org/10.1109/TCAD.2024.3376588</a> </li>
+        <li> * - contributed equally </li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
+
+
