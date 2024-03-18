@@ -33,7 +33,7 @@ table, tr, th, td {
 <table>
   <tr>
     <th>Mar 2024</th>
-    <td>Our work on <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1109/TCAD.2024.3376588">Global Fixed Priority Preemptive Scheduling</a> accepted in <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43">IEEE TCAD</a></td>
+    <td>Our work on <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1109/TCAD.2024.3376588">Global Fixed Priority Preemptive Scheduling</a> is accepted in <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43">IEEE TCAD</a></td>
   </tr>
 
   <tr>
