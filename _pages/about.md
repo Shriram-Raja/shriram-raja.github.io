@@ -42,8 +42,7 @@ table, tr, th, td {
   </tr>
 </table>
 
-<br/><br/>
-
+<br/>
 
 ### What's in a name?
 ___
