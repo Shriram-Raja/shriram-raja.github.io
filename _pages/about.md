@@ -9,15 +9,15 @@ redirect_from:
 ---
 
 I am a first year Ph.D. student in the Department of Computer Science at Boston University working with <a target="_blank" rel="noopener noreferrer" href="https://www.cs.bu.edu/fac/richwest/index2.html">Dr. Richard West</a>. I received my Master's in Computer Engineering in 2023 from Virginia Tech where I was advised by <a target="_blank" rel="noopener noreferrer" href="https://www.faculty.ece.vt.edu/zeng/">Dr. Haibo Zeng</a>. I completed my Bachelor's degree in Electrical and Electronics Engineering at PSG College of Technology, India in 2021.
-<br/><br/>
 
-### Research Interests
-___
-
-I am broadly interested in real-time systems research. My specific interests include (but are not limited to):
+My research focuses on different aspects of Real-Time Operating System design for multicore systems. My specific interests include, but are not limited to:
 - Scheduling
+- Synchronization
 - Resource Management
-<br/><br/>
+
+Feel free to reach out to me in case you are interested in my research, real-time systems, or pursuing graduate school. EmailYou can also find an excellent list of resources that have helped me in my academic journey [here](/resources/). 
+
+<br/>
 
 
 ### News
