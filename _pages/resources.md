@@ -6,8 +6,6 @@ redirect_from:
   - /resources.html
 ---
 
-Links to resources on different topics:
-
 # Real-Time Systems
 - Classification of Real-Time System papers (1990-2015) by Dr. Enrico Bini - [Link](https://cmte.ieee.org/tcrts/classification-of-rtss-papers/)
 - Seminal Papers in Real-Time Systems, Technical Community on Real-Time Systems (TCRTS) - [Link](https://cmte.ieee.org/tcrts/education/seminal-papers/)
