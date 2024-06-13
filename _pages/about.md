@@ -17,8 +17,6 @@ My research focuses on different aspects of Real-Time Operating System design fo
 
 Feel free to reach out to me in case you are interested in my research, real-time systems, or pursuing graduate school. Email is the quickest way to reach me. 
 
-You can also find an excellent list of resources that have helped me in my academic journey [here](/resources/). 
-
 <br/>
 
 
