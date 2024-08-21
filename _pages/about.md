@@ -8,14 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-I am a first year Ph.D. student in the Department of Computer Science at Boston University working with <a target="_blank" rel="noopener noreferrer" href="https://www.cs.bu.edu/fac/richwest/index2.html">Dr. Richard West</a>. I received my Master's in Computer Engineering in 2023 from Virginia Tech where I was advised by <a target="_blank" rel="noopener noreferrer" href="https://www.faculty.ece.vt.edu/zeng/">Dr. Haibo Zeng</a>. I completed my Bachelor's degree in Electrical and Electronics Engineering at PSG College of Technology, India in 2021.
+I am a second year Ph.D. student in the Department of Computer Science at Boston University working with <a target="_blank" rel="noopener noreferrer" href="https://www.cs.bu.edu/fac/richwest/index2.html">Dr. Richard West</a>. I received my Master's in Computer Engineering in 2023 from Virginia Tech where I was advised by <a target="_blank" rel="noopener noreferrer" href="https://www.faculty.ece.vt.edu/zeng/">Dr. Haibo Zeng</a>. I completed my Bachelor's degree in Electrical and Electronics Engineering at PSG College of Technology, India in 2021.
 
 My research focuses on different aspects of Real-Time Operating System design for multicore systems. My specific interests include, but are not limited to:
 - Scheduling
 - Synchronization
 - Resource Management
 
-Feel free to reach out to me in case you are interested in my research, real-time systems, or pursuing graduate school. Email is the quickest way to reach me. 
+Feel free to reach out to me in case you are interested in my research, real-time systems, or pursuing graduate school. <a href="mailto:shriramr@bu.edu">Email</a> is the quickest way to reach me. 
 
 <br/>
 

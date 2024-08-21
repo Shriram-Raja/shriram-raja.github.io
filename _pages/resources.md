@@ -25,7 +25,7 @@ redirect_from:
 <br/>
 
 # Personal Profile
-While hundreds of personal profiles have inspired the content of this website, the following are the tools that I have used directly in its development:
+While several personal profiles have inspired the content of this website, the following are the tools that I have used directly in its development:
 - [Overleaf Template for CV](https://www.overleaf.com/latex/templates/faangpath-simple-template/npsfpdqnxmbc)
 - [Contrast Checker](https://webaim.org/resources/contrastchecker/)
 - [academicpages](https://academicpages.github.io/) - GitHub Pages template for academic personal websites
