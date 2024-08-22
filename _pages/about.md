@@ -14,8 +14,9 @@ My research focuses on different aspects of Real-Time Operating System design fo
 - Scheduling
 - Synchronization
 - Resource Management
+- Virtualization
 
-Feel free to reach out to me in case you are interested in my research, real-time systems, or pursuing graduate school. <a href="mailto:shriramr@bu.edu">Email</a> is the quickest way to reach me. 
+Feel free to reach out to me in case you are interested in my research, real-time systems, or pursuing graduate school. <a href="mailto:shriramr@bu.edu">Email</a> is the best way to reach me. 
 
 <br/>
 
