@@ -19,7 +19,7 @@ author_profile: true
 table, tr, th, td {
   border: none;
   border-collapse: collapse;
-  font-size:16px;
+  font-size:20px;
   vertical-align: top;
   /* width:auto; */
 }

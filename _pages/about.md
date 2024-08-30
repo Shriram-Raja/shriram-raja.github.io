@@ -28,7 +28,7 @@ ___
 table, tr, th, td {
     border: none;
     border-collapse: collapse;
-    font-size:18px;
+    font-size:20px;
 }
 </style>
 
