@@ -22,13 +22,13 @@ Feel free to reach out to me in case you are interested in my research, real-tim
 <br/>
 
 
-### News
+## News
 ___
 <style>
 table, tr, th, td {
     border: none;
     border-collapse: collapse;
-    font-size:20px;
+    font-size:18px;
 }
 </style>
 
@@ -46,7 +46,7 @@ table, tr, th, td {
 
 <br/>
 
-### What's in a name?
+## What's in a name?
 ___
 
 My name is pronounced as follows:   
