@@ -33,6 +33,12 @@ table, tr, th, td {
 </style>
 
 <table>
+
+  <tr>
+    <th>Dec 2024</th>
+    <td>Organised a tutorial on <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1109/TCAD.2024.3376588">Getting Started with the Quest RTOS and Quest-V Partitioning Hypervisor</a> at <a target="_blank" rel="noopener noreferrer" href="https://2024.rtss.org/conference-program/">RTSS 2024</a></td>
+  </tr>
+
   <tr>
     <th>Mar 2024</th>
     <td>Our work on <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1109/TCAD.2024.3376588">Global Fixed Priority Preemptive Scheduling</a> is accepted in <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43">IEEE TCAD</a></td>
