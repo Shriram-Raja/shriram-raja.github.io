@@ -9,4 +9,4 @@ author_profile: true
 * <a target="_blank" rel="noopener noreferrer" href="https://sites.bu.edu/quest/">Getting Started with the Quest RTOS and Quest-V Partitioning Hypervisor</a>, Tutorial, RTSS 2024
 
 ## Academic Services
-* Secondary Reviewer: RTSS 2024
+* Secondary Reviewer: RTSS 2024, RTAS 2025
