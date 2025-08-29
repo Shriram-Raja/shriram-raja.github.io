@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second year Ph.D. student in the Department of Computer Science at Boston University working with <a target="_blank" rel="noopener noreferrer" href="https://www.cs.bu.edu/fac/richwest/index.html">Dr. Richard West</a>. I received my Master's in Computer Engineering in 2023 from Virginia Tech where I was advised by <a target="_blank" rel="noopener noreferrer" href="https://www.faculty.ece.vt.edu/zeng/">Dr. Haibo Zeng</a>. I completed my Bachelor's degree in Electrical and Electronics Engineering at PSG College of Technology, India in 2021.
+I am a third year Ph.D. student in the Department of Computer Science at Boston University working with <a target="_blank" rel="noopener noreferrer" href="https://www.cs.bu.edu/fac/richwest/index.html">Dr. Richard West</a>. I received my Master's in Computer Engineering in 2023 from Virginia Tech where I was advised by <a target="_blank" rel="noopener noreferrer" href="https://ece.vt.edu/people/profile/zeng.html">Dr. Haibo Zeng</a>. I completed my Bachelor's degree in Electrical and Electronics Engineering at PSG College of Technology, India in 2021.
 
 My research focuses on different aspects of Real-Time Operating System design for multicore systems. My specific interests include, but are not limited to:
 - Scheduling
@@ -36,7 +36,7 @@ table, tr, th, td {
 
   <tr>
     <th>Dec 2024</th>
-    <td>Organised a tutorial on <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1109/TCAD.2024.3376588">Getting Started with the Quest RTOS and Quest-V Partitioning Hypervisor</a> at <a target="_blank" rel="noopener noreferrer" href="https://2024.rtss.org/conference-program/">RTSS 2024</a></td>
+    <td>Organised a tutorial on Getting Started with the Quest RTOS and Quest-V Partitioning Hypervisor at <a target="_blank" rel="noopener noreferrer" href="https://2024.rtss.org/conference-program/">RTSS 2024</a></td>
   </tr>
 
   <tr>
