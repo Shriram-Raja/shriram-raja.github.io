@@ -19,8 +19,7 @@ My research focuses on different aspects of Real-Time Operating System design fo
 
 Feel free to reach out to me in case you are interested in my research, real-time systems, or pursuing graduate school. <a href="mailto:shriramr@bu.edu">Email</a> is the best way to reach me. 
 
-<br/>
-
+<br>
 
 ## News
 ___
@@ -30,27 +29,35 @@ table, tr, th, td {
     border-collapse: collapse;
     font-size:100%;
 }
+th {
+  width: 100px;
+  vertical-align: top;
+}
 </style>
 
 <table>
+  <tr>
+    <th>Sep 2025</th>
+    <td>{% include macro_pres.html %} Education Class on <a target="_blank" rel="noopener noreferrer" href="https://sites.bu.edu/quest/">Getting Started with the Quest RTOS and Quest-V Partitioning Hypervisor</a> at ESWEEK 2025</td>
+  </tr>
 
   <tr>
     <th>Dec 2024</th>
-    <td>Organised a tutorial on Getting Started with the Quest RTOS and Quest-V Partitioning Hypervisor at <a target="_blank" rel="noopener noreferrer" href="https://2024.rtss.org/conference-program/">RTSS 2024</a></td>
+    <td>{% include macro_pres.html %} Tutorial on <a target="_blank" rel="noopener noreferrer" href="https://sites.bu.edu/quest/">Getting Started with the Quest RTOS and Quest-V Partitioning Hypervisor</a> at <a target="_blank" rel="noopener noreferrer" href="https://2024.rtss.org/conference-program/">RTSS 2024</a></td>
   </tr>
 
   <tr>
     <th>Mar 2024</th>
-    <td>Our work on <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1109/TCAD.2024.3376588">Global Fixed Priority Preemptive Scheduling</a> is accepted in <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43">IEEE TCAD</a></td>
+    <td>{% include macro_paper.html %} Our work on <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1109/TCAD.2024.3376588">Global Fixed Priority Preemptive Scheduling</a> has been accepted in <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43">IEEE TCAD</a></td>
   </tr>
 
   <tr>
     <th>Sep 2023</th>
-    <td>Started my Ph.D. at Boston University</td>
+    <td>{% include macro_news.html %} Started my Ph.D. at Boston University</td>
   </tr>
 </table>
 
-<br/>
+<br>
 
 ## What's in a name?
 ___
