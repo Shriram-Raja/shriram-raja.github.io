@@ -37,13 +37,18 @@ th {
 
 <table>
   <tr>
+    <th>Dec 2025</th>
+    <td>{% include macro_pres.html %} Tutorial on <a target="_blank" rel="noopener noreferrer" href="https://sites.bu.edu/quest/">Getting Started with the Quest RTOS and Quest-V Partitioning Hypervisor</a> at <a target="_blank" rel="noopener noreferrer" href="https://2025.rtss.org/hot-topics-day/index.html">RTSS 2025</a></td>
+  </tr>
+
+  <tr>
     <th>Sep 2025</th>
-    <td>{% include macro_pres.html %} Education Class on <a target="_blank" rel="noopener noreferrer" href="https://sites.bu.edu/quest/">Getting Started with the Quest RTOS and Quest-V Partitioning Hypervisor</a> at ESWEEK 2025</td>
+    <td>{% include macro_pres.html %} Education Class on Getting Started with the Quest RTOS and Quest-V Partitioning Hypervisor at ESWEEK 2025</td>
   </tr>
 
   <tr>
     <th>Dec 2024</th>
-    <td>{% include macro_pres.html %} Tutorial on <a target="_blank" rel="noopener noreferrer" href="https://sites.bu.edu/quest/">Getting Started with the Quest RTOS and Quest-V Partitioning Hypervisor</a> at <a target="_blank" rel="noopener noreferrer" href="https://2024.rtss.org/conference-program/">RTSS 2024</a></td>
+    <td>{% include macro_pres.html %} Tutorial on Getting Started with the Quest RTOS and Quest-V Partitioning Hypervisor at <a target="_blank" rel="noopener noreferrer" href="https://2024.rtss.org/conference-program/">RTSS 2024</a></td>
   </tr>
 
   <tr>

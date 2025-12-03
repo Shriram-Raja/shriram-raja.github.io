@@ -6,7 +6,9 @@ author_profile: true
 ---
 
 ## Talks and Presentations
-* <a target="_blank" rel="noopener noreferrer" href="https://sites.bu.edu/quest/">Getting Started with the Quest RTOS and Quest-V Partitioning Hypervisor</a> - RTSS 2024, ESWEEK 2025
+* <a target="_blank" rel="noopener noreferrer"
+  href="https://sites.bu.edu/quest/">Getting Started with the Quest RTOS and
+  Quest-V Partitioning Hypervisor</a> - RTSS 2024, ESWEEK 2025, RTSS 2025
 
 ## Academic Service
 * Secondary Reviewer: 
