@@ -59,12 +59,11 @@ table, tr, th, td {
 }
 
 .expandableText {
-  height: 0;
-  overflow: hidden;
-  display: block;
-  transition: 
-    height 0.25s ease-in-out,
-    padding 0.25s ease-in-out;
+  display: none;  /* Hide by default */
+}
+
+.expandableText.show {
+  display: block;  /* Show when 'show' class is added */
 }
 
 .bibtex {
@@ -85,16 +84,19 @@ table, tr, th, td {
     <td>
       Richard West, Zhiyuan Ruan, <u><b>Shriram Raja</b></u>, and Rafiuddin Syed, <span class="abstract">"Tutorial: Mixed-Criticality Computing with the Quest RTOS and Quest-V Partitioning Hypervisor"</span>, <span class="venue">25th ACM SIGBED International Conference on Embedded Software (EMSOFT)</span>, 2025 
       <span>
-        [<button onclick="toggleText(this)" class="toggleButton">Brief</button>]
-        [<button onclick="toggleText(this)" class="toggleButton">BibTex</button>]
+        <!-- [<button class="toggleButton">Brief</button>]
+        [<button class="toggleButton">BibTex</button>] -->
         [<a target="_blank" rel="noopener noreferrer" href="/files/Tutorial_EMSOFT_2025.pdf">pdf</a>]
         [<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1145/3742874.3758338">DOI</a>]
       </span>
-      <div class="expandableText">
-        <b>Brief:</b>
-        <p>This abstract gives an overview of the Quest-V Software Development Kit and serves as companion document to the tutorial we organized as a part of EMSOFT 2025. </p>
-      </div>
-      <div class="expandableText bibtex"><b>BibTex:</b> 
+      <!-- <div class="expandableText"> -->
+        <!-- <b>Brief:</b> -->
+        <ul>
+        <li>This abstract gives an overview of the Quest-V Software Development Kit and serves as companion document to the tutorial we organized as a part of EMSOFT 2025. </li>
+        </ul>
+      <!-- </div> -->
+      <!-- <div class="expandableText bibtex"> -->
+      <!-- <b>BibTex:</b> 
 @inproceedings{questv-sdk-tutorial,
   author = {West, Richard and Ruan, Zhiyuan and Raja, Shriram and Syed, Rafiuddin},
   title = {&#123;Tutorial: Mixed-Criticality Computing with the Quest RTOS and Quest-V Partitioning Hypervisor&#125;},
@@ -105,8 +107,8 @@ table, tr, th, td {
   url = {https://doi.org/10.1145/3742874.3758338},
   doi = {10.1145/3742874.3758338},
   location = {Taipei International Convention Center (TICC), Taipei, Taiwan},
-  series = {EMSOFT '25}
-}</div>
+  series = {EMSOFT '25} -->
+<!-- }</div> -->
     </td>
   </tr>
   <tr>
@@ -116,20 +118,21 @@ table, tr, th, td {
     <td>
       Xuanliang Deng*, <u><b>Shriram Raja</b></u>*, Yecheng Zhao, and Haibo Zeng, <span class="journal">"Priority Assignment for Global Fixed Priority Scheduling on Multiprocessors"</span>, <span class="venue">IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)</span>, 2024 
       <span>
-        [<button onclick="toggleText(this)" class="toggleButton">Brief</button>]
-        [<button onclick="toggleText(this)" class="toggleButton">BibTex</button>]
+        <!-- [<button class="toggleButton">Brief</button>]
+        [<button class="toggleButton">BibTex</button>] -->
         [<a target="_blank" rel="noopener noreferrer" href="/files/HP_MITER_TCAD_2024.pdf">pdf</a>]
         [<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1109/TCAD.2024.3376588">DOI</a>]
         [<a target="_blank" rel="noopener noreferrer" href="https://github.com/Shriram-Raja/HP-MITER">Code</a>]
       </span>
-      <div class="expandableText">
-      <b>Brief:</b> 
+      <!-- <div class="expandableText"> -->
+      <!-- <b>Brief:</b>  -->
       <ul>
       <li> Proposes a Mixed Priority Assignment algorithm for Global Fixed Priority (G-FP) scheduling that combines the advantages of heuristics and response time estimation (in place of actual response time) to outperform existing methods by 25% on average. </li>
       <li> * - contributed equally </li>
       </ul>
-      </div>
-      <div class="expandableText bibtex"><b>BibTex:</b> 
+      <!-- </div> -->
+      <!-- <div class="expandableText bibtex"> -->
+      <!-- <b>BibTex:</b> 
 @article{hp-miter,
   author = {Deng, Xuanliang and Raja, Shriram and Zhao, Yecheng and Zeng, Haibo},
   journal = {IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems}, 
@@ -138,8 +141,8 @@ table, tr, th, td {
   volume = {43},
   number = {9},
   pages = {2538-2550},
-  doi = {10.1109/TCAD.2024.3376588}
-}</div>
+  doi = {10.1109/TCAD.2024.3376588} -->
+<!-- }</div> -->
     </td>
   </tr>
 </table>
