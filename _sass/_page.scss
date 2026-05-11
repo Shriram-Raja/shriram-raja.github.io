@@ -34,6 +34,12 @@
   }
 }
 
+/* No top margin if the first element is h2, h3, etc., i.e., not h1 */
+.archive > :first-child,
+.archive > .page__title + * {
+  margin-top: 0;
+}
+
 .page__title {
   margin-top: 0;
   line-height: 1;
@@ -46,6 +52,14 @@
   & + .page__meta {
     margin-top: -0.5em;
   }
+
+  &:empty {
+    display: none;
+  }
+}
+
+ul.spaced > li {
+  margin-bottom: 2em;
 }
 
 .page__lead {

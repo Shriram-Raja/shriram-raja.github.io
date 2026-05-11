@@ -1,11 +1,12 @@
 ---
 layout: archive
-title: "Publications"
+title: ""
 permalink: /publications/
 author_profile: true
 ---
 
-<!-- {% if author.googlescholar %}
+{% comment %} 
+{% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
@@ -13,13 +14,14 @@ author_profile: true
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
-{% endfor %} -->
+{% endfor %} 
+{% endcomment %}
 
 <style>
 table, tr, th, td {
   border: none;
   border-collapse: collapse;
-  font-size: 97%;
+  font-size: 100%;
   vertical-align: top;
   /* width: auto; */
 }
@@ -37,6 +39,11 @@ table, tr, th, td {
 .abstract {
   font-weight: bold;
   color: #5fd148ff;
+}
+
+.preprint {
+  font-weight: bold;
+  color: rgb(191, 99, 210);
 }
 
 .venue {
@@ -59,24 +66,89 @@ table, tr, th, td {
 }
 
 .expandableText {
-  display: none;  /* Hide by default */
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s linear, margin-top 0.3s linear;
+  margin-top: 0;
 }
 
 .expandableText.show {
-  display: block;  /* Show when 'show' class is added */
+  grid-template-rows: 1fr;
+  margin-top: 4px;
 }
 
-.bibtex {
-  font-family: monospace;
-  white-space: pre;
-  word-wrap: break-word;
+.expandable-inner {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.bibtex .expandable-inner {
+  /* background: #2d2d2d; */
+  /* color: #e0e0e0; */
+  display: flex;
+  align-items: flex-end;
+  border-radius: 6px;
+  gap: 10px;
+}
+
+.bibtex .bib-content {
+  flex: 1;
+  display: block;
   white-space: pre-wrap;
-  overflow-wrap: break-word;
+  font-family: monospace;
+  font-size: 85%;
+  padding: 10px;
+  line-height: 1.4;
+  background: none;
+  border: none;
+}
+
+.copy-btn {
+  background: #444;
+  color: #e0e0e0;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 80%;
+  flex-shrink: 0;
+}
+
+.copy-btn:hover {
+  background: #555;
 }
 
 </style>
 
 <table>
+
+  <tr>
+    <td class="preprint">
+      [P1]
+    </td>
+    <td>
+      <u><b>Shriram Raja</b></u>*, Zhiyuan Ruan*, and Richard West, <span class="preprint">"Pomegranate: A Lightweight Compartmentalization Architecture using Virtualization Extensions"</span>, <span class="venue">arxiv</span>, 2026
+      <span>
+        [<button class="toggleButton" data-target="brief-p1">Brief</button>]
+        [<button class="toggleButton" data-target="bib-p1">BibTeX</button>]
+        [<a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2605.07008">arxiv</a>]
+      </span>
+      <div class="expandableText" id="brief-p1">
+        <div class="expandable-inner">
+          <ul>
+            <li>We propose a kernel compartmentalization framework that uses hardware virtualization features to efficiently compartmentalize an existing monolith without kernel modifications.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="expandableText bibtex" id="bib-p1" data-bib-key="pomegranate">
+        <div class="expandable-inner">
+          <code class="bib-content">Loading...</code>
+          <button class="copy-btn">Copy</button>
+        </div>
+      </div>
+    </td>
+  </tr>
+
   <tr>
     <td class="abstract">
       [A1]
@@ -84,33 +156,27 @@ table, tr, th, td {
     <td>
       Richard West, Zhiyuan Ruan, <u><b>Shriram Raja</b></u>, and Rafiuddin Syed, <span class="abstract">"Tutorial: Mixed-Criticality Computing with the Quest RTOS and Quest-V Partitioning Hypervisor"</span>, <span class="venue">25th ACM SIGBED International Conference on Embedded Software (EMSOFT)</span>, 2025 
       <span>
-        <!-- [<button class="toggleButton">Brief</button>]
-        [<button class="toggleButton">BibTex</button>] -->
+        [<button class="toggleButton" data-target="brief-a1">Brief</button>]
+        [<button class="toggleButton" data-target="bib-a1">BibTeX</button>]
         [<a target="_blank" rel="noopener noreferrer" href="/files/Tutorial_EMSOFT_2025.pdf">pdf</a>]
         [<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1145/3742874.3758338">DOI</a>]
       </span>
-      <!-- <div class="expandableText"> -->
-        <!-- <b>Brief:</b> -->
-        <ul>
-        <li>This abstract gives an overview of the Quest-V Software Development Kit and serves as companion document to the tutorial we organized as a part of EMSOFT 2025. </li>
-        </ul>
-      <!-- </div> -->
-      <!-- <div class="expandableText bibtex"> -->
-      <!-- <b>BibTex:</b> 
-@inproceedings{questv-sdk-tutorial,
-  author = {West, Richard and Ruan, Zhiyuan and Raja, Shriram and Syed, Rafiuddin},
-  title = {&#123;Tutorial: Mixed-Criticality Computing with the Quest RTOS and Quest-V Partitioning Hypervisor&#125;},
-  year = {2025},
-  isbn = {9798400719936},
-  publisher = {Association for Computing Machinery},
-  address = {New York, NY, USA},
-  url = {https://doi.org/10.1145/3742874.3758338},
-  doi = {10.1145/3742874.3758338},
-  location = {Taipei International Convention Center (TICC), Taipei, Taiwan},
-  series = {EMSOFT '25} -->
-<!-- }</div> -->
+      <div class="expandableText" id="brief-a1">
+        <div class="expandable-inner">
+          <ul>
+            <li>This abstract gives an overview of the Quest-V Software Development Kit and serves as companion document to the tutorial we organized as a part of EMSOFT 2025.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="expandableText bibtex" id="bib-a1" data-bib-key="questv_tutorial">
+        <div class="expandable-inner">
+          <code class="bib-content">Loading...</code>
+          <button class="copy-btn">Copy</button>
+        </div>
+      </div>
     </td>
   </tr>
+
   <tr>
     <td class="journal">
       [J1]
@@ -118,60 +184,95 @@ table, tr, th, td {
     <td>
       Xuanliang Deng*, <u><b>Shriram Raja</b></u>*, Yecheng Zhao, and Haibo Zeng, <span class="journal">"Priority Assignment for Global Fixed Priority Scheduling on Multiprocessors"</span>, <span class="venue">IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)</span>, 2024 
       <span>
-        <!-- [<button class="toggleButton">Brief</button>]
-        [<button class="toggleButton">BibTex</button>] -->
+        [<button class="toggleButton" data-target="brief-j1">Brief</button>]
+        [<button class="toggleButton" data-target="bib-j1">BibTeX</button>]
         [<a target="_blank" rel="noopener noreferrer" href="/files/HP_MITER_TCAD_2024.pdf">pdf</a>]
         [<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1109/TCAD.2024.3376588">DOI</a>]
         [<a target="_blank" rel="noopener noreferrer" href="https://github.com/Shriram-Raja/HP-MITER">Code</a>]
       </span>
-      <!-- <div class="expandableText"> -->
-      <!-- <b>Brief:</b>  -->
-      <ul>
-      <li> Proposes a Mixed Priority Assignment algorithm for Global Fixed Priority (G-FP) scheduling that combines the advantages of heuristics and response time estimation (in place of actual response time) to outperform existing methods by 25% on average. </li>
-      <li> * - contributed equally </li>
-      </ul>
-      <!-- </div> -->
-      <!-- <div class="expandableText bibtex"> -->
-      <!-- <b>BibTex:</b> 
-@article{hp-miter,
-  author = {Deng, Xuanliang and Raja, Shriram and Zhao, Yecheng and Zeng, Haibo},
-  journal = {IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems}, 
-  title = {&#123;Priority Assignment for Global Fixed Priority Scheduling on Multiprocessors&#125;}, 
-  year = {2024},
-  volume = {43},
-  number = {9},
-  pages = {2538-2550},
-  doi = {10.1109/TCAD.2024.3376588} -->
-<!-- }</div> -->
+      <div class="expandableText" id="brief-j1">
+        <div class="expandable-inner">
+          <ul>
+            <li>Proposes a Mixed Priority Assignment algorithm for Global Fixed Priority (G-FP) scheduling that combines the advantages of heuristics and response time estimation to outperform existing methods by 25% on average.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="expandableText bibtex" id="bib-j1" data-bib-key="hp_miter">
+        <div class="expandable-inner">
+          <code class="bib-content">Loading...</code>
+          <button class="copy-btn">Copy</button>
+        </div>
+      </div>
     </td>
   </tr>
+
 </table>
+
+\* - contributed equally
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const toggleButtons = document.querySelectorAll('.toggleButton');
-  
-  toggleButtons.forEach(button => {
+  // Helper function to extract a BibTeX entry by key
+  function findBibEntry(bibText, key) {
+    const startRegex = new RegExp(`@\\w+\\{${key},`);
+    const startMatch = bibText.match(startRegex);
+    if (!startMatch) return null;
+    
+    const start = startMatch.index;
+    let braceCount = 1;
+    let i = start + startMatch[0].length;
+    
+    while (i < bibText.length && braceCount > 0) {
+      if (bibText[i] === '{') braceCount++;
+      else if (bibText[i] === '}') braceCount--;
+      i++;
+    }
+    
+    return braceCount === 0 ? bibText.substring(start, i) : null;
+  }
+
+  // Load BibTeX from file
+  fetch('/files/publications.bib')
+    .then(response => response.text())
+    .then(bibText => {
+      document.querySelectorAll('[data-bib-key]').forEach(el => {
+        const key = el.dataset.bibKey;
+        const entry = findBibEntry(bibText, key);
+        if (entry) {
+          el.querySelector('.bib-content').textContent = entry.trim();
+        } else {
+          el.querySelector('.bib-content').textContent = 'BibTeX entry not found';
+          console.log('Could not find key:', key);
+        }
+      });
+    })
+    .catch(err => {
+      console.error('Failed to load BibTeX:', err);
+      document.querySelectorAll('.bib-content').forEach(el => {
+        el.textContent = 'Failed to load BibTeX';
+      });
+    });
+
+  // Simple toggle
+  document.querySelectorAll('.toggleButton').forEach(button => {
     button.addEventListener('click', function() {
-      // Find the parent td, then get all expandable texts in this row
-      const parentTd = this.closest('td');
-      const expandableTexts = parentTd.querySelectorAll('.expandableText');
-      
-      // Determine which expandable text to toggle based on button order
-      const buttonIndex = Array.from(this.parentElement.children).indexOf(this);
-      const textElement = expandableTexts[buttonIndex];
-      
-      if (textElement.classList.contains('show')) {
-        // When hiding
-        textElement.style.height = '0';
-        textElement.style.padding = '0';
-        textElement.classList.remove('show');
-      } else {
-        // When showing
-        textElement.style.height = (textElement.scrollHeight + 15) + 'px';
-        textElement.style.padding = '15px 0px';
-        textElement.classList.add('show');
+      const target = document.getElementById(this.getAttribute('data-target'));
+      if (target) {
+        target.classList.toggle('show');
       }
+    });
+  });
+
+  // Copy button
+  document.querySelectorAll('.copy-btn').forEach(btn => {
+    btn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      const bibContent = this.previousElementSibling.textContent;
+      navigator.clipboard.writeText(bibContent).then(() => {
+        const original = this.textContent;
+        this.textContent = 'Copied!';
+        setTimeout(() => this.textContent = original, 1500);
+      });
     });
   });
 });
