@@ -75,6 +75,11 @@ table, tr, th, td {
   grid-template-rows: 0fr;
   transition: grid-template-rows 0.3s linear, margin-top 0.3s linear;
   margin-top: 0;
+  /* 
+   * start expandable content in a new line after paper-links 
+   * so that it is not truncated on mobile phones 
+   */
+  clear: both; 
 }
 
 .expandableText.show {
