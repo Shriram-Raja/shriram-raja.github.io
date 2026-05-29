@@ -26,7 +26,7 @@ ___
       <li>Software: Practice and Experience (2025)</li>
       <li>IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS)
         2025</li>
-      <li>IEEE Real-Time Systems Symposium (RTSS) 2024</li>
+      <li>IEEE Real-Time Systems Symposium (RTSS) 2024, 2026</li>
     </ul>
   </li>
 

@@ -27,6 +27,23 @@ cross-compartment access.
 ## Scheduling & Synchronization
 ___
 
+<b style="color: #f26c6c;">Synchronization in a Real-Time Kernel</b><br>
+<b>Advisor:</b> Richard West
+
+Enforcing mutual exclusion on shared resources is a classic problem in
+operating systems research. In this work, we explore synchronization in the
+context of a big kernel lock for a Real-Time Operating System. Priority-ordered
+locks may result in the starvation as they always allow a higher priority
+waiter to acquire the lock before one of lower priority. On the other hand,
+First-In-First-Out (FIFO) locks provide a bounded wait time, but completely
+ignore the priority of waiters. We propose Batched Priority Lock (BPL) which
+takes a middle ground: it enforces the same maximum bound on the waiting time
+as FIFO locks using the concept of batching, but consider the priority of
+waiters within the same batch to improve the average waiting time of higher
+priority tasks.
+
+<br>
+
 <b style="color: #f26c6c;">Priority Assignment for Global Fixed Priority Scheduling on Multiprocessors</b><br>
 <b>Collaborator:</b> Xuanliang Deng<br>
 <b>Advisor:</b> <a target="_blank" rel="noopener noreferrer" href="https://ece.vt.edu/people/profile/zeng.html">Haibo Zeng</a>
@@ -45,21 +62,6 @@ hence the most accurate schedulability analysis.
 {% comment %} 
 <b style="color: #f26c6c;">Scheduling on Heterogeneous Architectures </b> (Active)<br>
 <b>Advisor:</b> <a target="_blank" rel="noopener noreferrer" href="https://www.cs.bu.edu/~richwest/index2.html">Richard West</a>
-
-<b style="color: #f26c6c;">Synchronization in a Real-Time Kernel</b> (Active)<br>
-<b>Advisor:</b> <a target="_blank" rel="noopener noreferrer" href="https://www.cs.bu.edu/~richwest/index2.html">Richard West</a>
-
-Enforcing mutual exclusion on shared resources is a classic problem in
-operating systems research. In this work, we explore synchronization in the
-context of a big kernel lock for a Real-Time Operating System. Priority-ordered
-locks may result in the starvation as they always allow a higher priority
-waiter to acquire the lock before one of lower priority. On the other hand,
-First-In-First-Out (FIFO) locks provide a bounded wait time, but completely
-ignore the priority of waiters. We propose Batched Priority Lock (BPL) which
-takes a middle ground: it enforces the same maximum bound on the waiting time
-as FIFO locks using the concept of batching, but consider the priority of
-waiters within the same batch to improve the average waiting time of higher
-priority tasks.
 
 
 {% endcomment %}

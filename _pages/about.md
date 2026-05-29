@@ -11,15 +11,17 @@ redirect_from:
 
 I am a third year Ph.D. student in the Department of Computer Science at Boston University working with <a target="_blank" rel="noopener noreferrer" href="https://www.cs.bu.edu/fac/richwest/index.html">Dr. Richard West</a>. I received my Master's in Computer Engineering in 2023 from Virginia Tech where I was advised by <a target="_blank" rel="noopener noreferrer" href="https://ece.vt.edu/people/profile/zeng.html">Dr. Haibo Zeng</a>. I completed my Bachelor's degree in Electrical and Electronics Engineering at PSG College of Technology, India in 2021.
 
-My research focuses on different aspects of Real-Time Operating System design for multicore systems. My specific interests include, but are not limited to:
+My research focuses on different aspects of designing and building predictable systems. My specific interests include, but are not limited to:
 <ul>
-  <li>Scheduling</li>
-  <li>Synchronization</li>
-  <li>Resource Management</li>
+  <li>Scheduling & Synchronization</li>
   <li>Virtualization</li>
+  <li>Heterogeneous Architectures</li>
+  <li>Predictable AI</li>
 </ul>
 
-Feel free to reach out to me in case you are interested in my research, real-time systems, or pursuing graduate school. <a href="mailto:shriramr@bu.edu">Email</a> is the best way to reach me. 
+Feel free to reach out to me in case you are interested in my work, systems
+research in general, or pursuing graduate school. <a
+href="mailto:shriramr@bu.edu">Email</a> is the best way to reach me. 
 
 
 ## News
@@ -37,6 +39,11 @@ th {
 </style>
 
 <table>
+
+  <tr>
+    <th>May 2026</th>
+    <td>{% include macro_preprint.html %} Our work titled <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2605.27620">Bounded Priority-Aware Locking for Real-Time Kernels</a> is now available on arxiv</td>
+  </tr>
 
   <tr>
     <th>May 2026</th>
@@ -58,12 +65,12 @@ th {
     <td>{% include macro_pres.html %} Tutorial on Getting Started with the Quest RTOS and Quest-V Partitioning Hypervisor at <a target="_blank" rel="noopener noreferrer" href="https://2024.rtss.org/conference-program/">RTSS 2024</a></td>
   </tr>
 
+  {% comment %} 
   <tr>
     <th>Mar 2024</th>
     <td>{% include macro_paper.html %} Our work on <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1109/TCAD.2024.3376588">Global Fixed Priority Preemptive Scheduling</a> has been accepted in <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43">IEEE TCAD</a></td>
   </tr>
 
-  {% comment %} 
   <tr>
     <th>Sep 2023</th>
     <td>{% include macro_news.html %} Started my Ph.D. at Boston University</td>
